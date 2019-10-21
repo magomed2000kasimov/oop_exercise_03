@@ -1,0 +1,75 @@
+1 - add
+2 - delete
+3 - call common functions for the entire array
+4 - total area
+5 - exit
+ 5 - pentagon
+ 6 - hexagon
+ 7 - heptagon
+ 5 - pentagon
+ 6 - hexagon
+ 7 - heptagon
+ 5 - pentagon
+ 6 - hexagon
+ 7 - heptagon
+coordinate:
+{
+1 1
+2 5
+4 7
+5 4
+4 2
+}
+3.2 3.8
+13
+coordinate:
+{
+-1 2
+-2 4
+-1 6
+1 6
+2 4
+1 2}
+0 4
+12
+coordinate:
+{
+1 3
+0.7 4.7
+2.3 6
+4.3 6
+5 3.4
+4 2
+2 2}
+2.75714 3.87143
+13.495
+38.495
+ enter index
+coordinate:
+{
+-1 2
+-2 4
+-1 6
+1 6
+2 4
+1 2}
+0 4
+12
+coordinate:
+{
+1 3
+0.7 4.7
+2.3 6
+4.3 6
+5 3.4
+4 2
+2 2}
+2.75714 3.87143
+13.495
+25.495
+ 5 - pentagon
+ 6 - hexagon
+ 7 - heptagon
+25.495
+ enter index
+25.495

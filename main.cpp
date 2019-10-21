@@ -56,9 +56,11 @@ int main() {
             case 2:
                 std::cout << " enter index\n";
                 std::cin >> j;
+				if ( j >= v.size() )
+						break;
                 delete v[j];
-                for (; i < v.size() - 1; ++i) {
-                    v[i] = v[i + 1];
+                for (; j < v.size() - 1; ++j) {
+                    v[j] = v[j + 1];
                 }
                 v.pop_back();
                 break;
@@ -73,8 +75,8 @@ int main() {
                 S = 0;
                 for (auto elem: v) {
                     S+=elem->square();
-                    std::cout << S << std::endl;
                 }
+				std::cout << S << std::endl;
                 break;
             default:
                 std::cout << " error\n";

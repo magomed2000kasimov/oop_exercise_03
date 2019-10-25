@@ -22,10 +22,6 @@ double pentagon::square() const{
     return (-0.5) * ((a1.x*a2.y + a2.x*a3.y + a3.x*a4.y + a4.x*a5.y + a5.x*a1.y) - ( a1.y*a2.x + a2.y*a3.x + a3.y*a4.x + a4.y*a5.x + a5.y*a1.x ));
 }
 
-pentagon::pentagon(point p1, point p2, point p3, point p4, point p5) {
-    a1 = p1;
-    a2 = p2;
-    a3 = p3;
-    a4 = p4;
-    a5 = p5;
+pentagon::pentagon(std::istream& is) {
+    is >> a1 >> a2 >> a3 >> a4 >> a5;
 }

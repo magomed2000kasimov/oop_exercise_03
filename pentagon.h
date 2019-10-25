@@ -14,9 +14,8 @@ public:
     point center() const override ;
     void print(std::ostream&) const  override ;
     double square() const override ;
-    //pentagon(std::istream&);
     pentagon() = default;
-    pentagon(point p1,point p2,point p3,point p4,point p5);
+    pentagon(std::istream& is);
 };
 
 

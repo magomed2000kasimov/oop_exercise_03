@@ -16,7 +16,7 @@ public:
     void print(std::ostream&) const  override ;
     double square() const override ;
     hexagon() = default;
-    hexagon(point p1,point p2,point p3,point p4,point p5,point p6);
+    hexagon(std::istream& is);
 
 };
 

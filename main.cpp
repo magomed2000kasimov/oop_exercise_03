@@ -4,7 +4,7 @@
 #include "figure.h"
 #include "pentagon.h"
 #include "hexagon.h"
-#include "8gon.h"
+#include "hgon.h"
 
 void menu() {
     std::cout << "1 - add\n"
@@ -49,7 +49,7 @@ int main() {
                 else if ( j == 8 ) {
                     point p1,p2,p3,p4,p5,p6,p7,p8;
                     std::cin >> p1 >> p2 >> p3 >> p4 >> p5 >> p6 >> p7 >> p8;
-                    f = new heptagon(p1,p2,p3,p4,p5,p6,p7,p8);
+                    f = new hgon(p1,p2,p3,p4,p5,p6,p7,p8);
                     v.push_back(f);
                 }
                 break;

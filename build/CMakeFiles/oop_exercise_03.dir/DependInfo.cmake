@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/magomed/oop_exercise_03/heptagon.cpp" "/home/magomed/oop_exercise_03/build/CMakeFiles/oop_exercise_03.dir/heptagon.cpp.o"
   "/home/magomed/oop_exercise_03/hexagon.cpp" "/home/magomed/oop_exercise_03/build/CMakeFiles/oop_exercise_03.dir/hexagon.cpp.o"
+  "/home/magomed/oop_exercise_03/hgon.cpp" "/home/magomed/oop_exercise_03/build/CMakeFiles/oop_exercise_03.dir/hgon.cpp.o"
   "/home/magomed/oop_exercise_03/main.cpp" "/home/magomed/oop_exercise_03/build/CMakeFiles/oop_exercise_03.dir/main.cpp.o"
   "/home/magomed/oop_exercise_03/pentagon.cpp" "/home/magomed/oop_exercise_03/build/CMakeFiles/oop_exercise_03.dir/pentagon.cpp.o"
   "/home/magomed/oop_exercise_03/point.cpp" "/home/magomed/oop_exercise_03/build/CMakeFiles/oop_exercise_03.dir/point.cpp.o"

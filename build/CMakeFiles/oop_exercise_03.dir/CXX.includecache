@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -12,19 +12,19 @@ iostream
 point.h
 /home/magomed/oop_exercise_03/point.h
 
-/home/magomed/oop_exercise_03/heptagon.cpp
-heptagon.h
-/home/magomed/oop_exercise_03/heptagon.h
-
-/home/magomed/oop_exercise_03/heptagon.h
-figure.h
-/home/magomed/oop_exercise_03/figure.h
-
 /home/magomed/oop_exercise_03/hexagon.cpp
 hexagon.h
 /home/magomed/oop_exercise_03/hexagon.h
 
 /home/magomed/oop_exercise_03/hexagon.h
+figure.h
+/home/magomed/oop_exercise_03/figure.h
+
+/home/magomed/oop_exercise_03/hgon.cpp
+hgon.h
+/home/magomed/oop_exercise_03/hgon.h
+
+/home/magomed/oop_exercise_03/hgon.h
 figure.h
 /home/magomed/oop_exercise_03/figure.h
 
@@ -41,8 +41,8 @@ pentagon.h
 /home/magomed/oop_exercise_03/pentagon.h
 hexagon.h
 /home/magomed/oop_exercise_03/hexagon.h
-heptagon.h
-/home/magomed/oop_exercise_03/heptagon.h
+hgon.h
+/home/magomed/oop_exercise_03/hgon.h
 
 /home/magomed/oop_exercise_03/pentagon.cpp
 pentagon.h

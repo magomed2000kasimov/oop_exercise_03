@@ -7,15 +7,15 @@
 
 #include "figure.h"
 
-struct heptagon : figure{
+struct hgon : figure{
 private:
     point a1,a2,a3,a4,a5,a6,a7,a8;
 public:
     point center() const override ;
     //void print(std::ostream&) const  override ;
     double square() const override ;
-    heptagon() = default;
-    heptagon(point p1,point p2,point p3,point p4,point p5,point p6,point p7,point p8);
+    hgon() = default;
+    hgon(point p1,point p2,point p3,point p4,point p5,point p6,point p7,point p8);
 
 };
 

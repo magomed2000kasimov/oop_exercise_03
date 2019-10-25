@@ -4,7 +4,7 @@
 #include "figure.h"
 #include "pentagon.h"
 #include "hexagon.h"
-#include "heptagon.h"
+#include "8gon.h"
 
 void menu() {
     std::cout << "1 - add\n"
@@ -32,7 +32,7 @@ int main() {
         {
             case 1:
                 figure* f;
-                std::cout << " 5 - pentagon\n 6 - hexagon\n 7 - heptagon\n";
+                std::cout << " 5 - pentagon\n 6 - hexagon\n 8 - 8gon\n";
                 std::cin >> j;
                 if ( j == 5 ) {
                     point p1,p2,p3,p4,p5;
@@ -46,10 +46,10 @@ int main() {
                     f = new hexagon(p1,p2,p3,p4,p5,p6);
                     v.push_back(f);
                 }
-                else if ( j == 7 ) {
-                    point p1,p2,p3,p4,p5,p6,p7;
-                    std::cin >> p1 >> p2 >> p3 >> p4 >> p5 >> p6 >> p7;
-                    f = new heptagon(p1,p2,p3,p4,p5,p6,p7);
+                else if ( j == 8 ) {
+                    point p1,p2,p3,p4,p5,p6,p7,p8;
+                    std::cin >> p1 >> p2 >> p3 >> p4 >> p5 >> p6 >> p7 >> p8;
+                    f = new heptagon(p1,p2,p3,p4,p5,p6,p7,p8);
                     v.push_back(f);
                 }
                 break;
